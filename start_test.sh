@@ -1,0 +1,1 @@
+pytest tests/test_sample.py --port /dev/tty.usbserial-A50285BI --baud 115200
