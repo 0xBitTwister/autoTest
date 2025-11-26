@@ -1,0 +1,211 @@
+# Query: \\+
+# Flags: WordMatch RegExp
+# ContextLines: 1
+
+62 个结果 - 3 文件
+
+  1680  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.908:18:NONE:hf send command check: size 43 count 415
+  1681: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.909:18:NONE:(d0) hf_at_cmd_count: 1 tx_status 0 curr AT+BRSF=767
+  1682  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.909:18:NONE:_hshf_send_next_cmd
+  1683: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.909:18:NONE:hf_at_cmd_send: len 12 AT+BRSF=767
+  1684  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.909:18:NONE:(d0) rfcomm_dlc_send:dlci=6 tx_credit=6 len=16
+
+  1722  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.920:18:NONE:(d0) rfcomm_recv_data:dlci=6 tx_credit=10 credit=0 pf=0 cfc=207 state 4
+  1723: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.920:18:NONE:hf_at_cmd_get: +BRSF  3951
+  1724  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.920:18:NONE:slc_brsf_cb ag features 0xf6f
+
+  1728  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.921:18:NONE:hf_at_cmd_get: OK
+  1729: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.921:18:NONE:hfp_at_cmd_free len 12 result 0: AT+BRSF=767
+  1730  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.922:18:NONE:####slc_brsf_resp
+  1731  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.922:18:NONE:hf send command check: size 42 count 423
+  1732: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.922:18:NONE:(d0) hf_at_cmd_count: 1 tx_status 1 curr AT+BAC=1,2
+  1733  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.922:18:NONE:_hshf_send_next_cmd
+  1734: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.922:18:NONE:hf_at_cmd_send: len 11 AT+BAC=1,2
+  1735  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.922:18:NONE:(d0) rfcomm_dlc_send:dlci=6 tx_credit=9 len=15
+
+  1781  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.930:18:NONE:hf_at_cmd_get: OK
+  1782: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.930:18:NONE:hfp_at_cmd_free len 11 result 0: AT+BAC=1,2
+  1783  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.930:18:NONE:####slc_bac_resp
+  1784  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.930:18:NONE:hf send command check: size 41 count 400
+  1785: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.930:18:NONE:(d0) hf_at_cmd_count: 1 tx_status 1 curr AT+CIND=?
+  1786  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.930:18:NONE:_hshf_send_next_cmd
+  1787: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.930:18:NONE:hf_at_cmd_send: len 10 AT+CIND=?
+  1788  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.931:18:NONE:(d0) rfcomm_dlc_send:dlci=6 tx_credit=9 len=14
+
+  1847  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.946:18:NONE:hf_process_input 1 132: 
+  1848: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.946:18:NONE:hf_at_cmd_get: +CIND  ("call",(0,1)),("callsetup",(0-3)),("service",(0-1)),("sign
+  1849  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.946:18:NONE:hf_at_cmd_get: ",(0-5)),("roam",(0,1)),("battchg",(0-5)),("callheld",(0-2))
+
+  1863  [2025-11-25 17:44:55] 50:I:11-25 17:44:54.948:177:BTGlass:<BTMusicStateMachine>[onHandler]:467 <1C:8B:EF:8C:F9:9E> what: MESSAGE_EVT_A2DP_STACK, arg1:0 arg2:2 mCurrentState:Disconnected in
+  1864: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.947:18:NONE:hfp_at_cmd_free len 10 result 0: AT+CIND=?
+  1865  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.948:18:NONE:####slc_cind_resp
+
+  1867  [2025-11-25 17:44:55] 50:I:11-25 17:44:54.949:177:BTGlass:<BTMusicStateMachine>[handleA2dpStackEvent]:644 <1C:8B:EF:8C:F9:9E> Disconnected
+  1868: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.948:18:NONE:(d0) hf_at_cmd_count: 1 tx_status 1 curr AT+CIND?
+  1869  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.948:18:NONE:_hshf_send_next_cmd
+  1870: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.948:18:NONE:hf_at_cmd_send: len 9 AT+CIND?
+  1871  [2025-11-25 17:44:55] 50:I:11-25 17:44:54.949:177:BTGlass:<BTMusicStateMachine>[transitionTo]:557 <1C:8B:EF:8C:F9:9E> Disconnected --> A2dpConnected
+
+  1910  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.957:18:NONE:hf_process_input 1 24: 
+  1911: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.958:18:NONE:hf_at_cmd_get: +CIND  1,0,1,5,0,5,0
+  1912  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.958:18:NONE:####slc_cind_status_cb
+
+  2001  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.963:18:NONE:hf_at_cmd_get: OK
+  2002: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.963:18:NONE:hfp_at_cmd_free len 9 result 0: AT+CIND?
+  2003  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.963:18:NONE:####slc_cind_status_resp
+
+  2005  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.963:18:NONE:hf send command check: size 47 count 385
+  2006: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.963:18:NONE:(d0) hf_at_cmd_count: 1 tx_status 1 curr AT+CMER=3,0,0,1
+  2007  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.963:18:NONE:_hshf_send_next_cmd
+  2008  [2025-11-25 17:44:55] 50:I:11-25 17:44:54.964:117:BTGlass:<BluetoothControlCenter>[broadcastAllCallInfo]:2812 callstate 1 callsetup 2
+  2009: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.963:18:NONE:hf_at_cmd_send: len 16 AT+CMER=3,0,0,1
+  2010  [2025-11-25 17:44:55] 50:I:11-25 17:44:54.964:117:BTGlass:<BluetoothControlCenter>[broadcastAllCallInfo]:2833 Added call status for device: 1C:8B:EF:8C:F9:9E, connState: 1, number: 057186564424, sessionStatus: 4
+
+  2090  [2025-11-25 17:44:55] 01 00 09 20 00 9a 03 20 ff ff ff ff 
+  2091: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.974:18:NONE:hfp_at_cmd_free len 16 result 0: AT+CMER=3,0,0,1
+  2092  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.974:18:NONE:####slc_cmer_resp
+  2093  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.974:18:NONE:hf send command check: size 41 count 432
+  2094: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.974:18:NONE:(d0) hf_at_cmd_count: 1 tx_status 1 curr AT+CHLD=?
+  2095  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.974:18:NONE:_hshf_send_next_cmd
+  2096: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.974:18:NONE:hf_at_cmd_send: len 10 AT+CHLD=?
+  2097  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.974:18:NONE:(d0) rfcomm_dlc_send:dlci=6 tx_credit=9 len=14
+
+  2127  [2025-11-25 17:44:55] 50:I:11-25 17:44:54.984:109:UserTrace:Opening sending window, reason: NORMAL event - conditions ready
+  2128: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.983:18:NONE:hf_at_cmd_get: +CHLD  (0,1,2,3)
+  2129  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.983:18:NONE:####set_chld_feat, 0
+
+  2143  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.984:18:NONE:(d0)hold result:0
+  2144: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.984:18:NONE:hfp_at_cmd_free len 10 result 0: AT+CHLD=?
+  2145  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.985:18:NONE:####slc_chld_resp
+
+  2159  [2025-11-25 17:44:55] 50:I:11-25 17:44:54.987:109:WAFT:AICameraTaskListener: AICameraTaskListener::onSingleAppTaskChanged()
+  2160: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.986:18:NONE:(d0) hf_at_cmd_count: 1 tx_status 1 curr AT+VGS=0
+  2161  [2025-11-25 17:44:55] 50:I:11-25 17:44:54.987:109:WAFT:AICameraTaskListener: onSingleAppTaskChanged PhoneCall, App Stage is 2, reson is 6
+
+  2269  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.996:18:NONE:hf send command check: size 41 count 432
+  2270: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.996:18:NONE:(d0) hf_at_cmd_count: 2 tx_status 1 curr AT+CLIP=1
+  2271  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.996:18:NONE:hf send command check: size 41 count 432
+  2272: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:(d0) hf_at_cmd_count: 3 tx_status 1 curr AT+CCWA=1
+  2273  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:hf send command check: size 43 count 415
+  2274: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:(d0) hf_at_cmd_count: 4 tx_status 1 curr AT+COPS=3,0
+  2275  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:hf send command check: size 41 count 431
+  2276: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:(d0) hf_at_cmd_count: 5 tx_status 1 curr AT+CMEE=1
+  2277  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:hf send command check: size 39 count 449
+  2278: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:(d0) hf_at_cmd_count: 6 tx_status 1 curr AT+CNUM
+  2279  [2025-11-25 17:44:55] 50:I:11-25 17:44:55.002:95:UserTrace:NORMAL batch: sent=7, failed=0, remaining=0
+
+  2309  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:hf send command check: size 56 count 329
+  2310: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:(d0) hf_at_cmd_count: 7 tx_status 1 curr AT+XAPL=0000-0000-0100,3
+  2311  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:_hshf_send_next_cmd
+  2312: [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:hf_at_cmd_send: len 9 AT+VGS=0
+  2313  [2025-11-25 17:44:55] 51:I:11-25 17:44:54.997:18:NONE:(d0) rfcomm_dlc_send:dlci=6 tx_credit=9 len=13
+
+  2326  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.004:18:NONE:hf_process_input 1 12: 
+  2327: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.004:18:NONE:hf_at_cmd_get: +BSIR  0
+  2328  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.004:18:NONE:####bsir_cb, val 0
+
+  2337  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.006:18:NONE:hf_at_cmd_get: OK
+  2338: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.006:18:NONE:hfp_at_cmd_free len 9 result 0: AT+VGS=0
+  2339  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.007:18:NONE:####cmd_complete_cb, result 0, cme_err 0
+  2340  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.007:18:NONE:_hshf_send_next_cmd
+  2341: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.007:18:NONE:hf_at_cmd_send: len 10 AT+CLIP=1
+  2342  [2025-11-25 17:44:55] 50:I:11-25 17:44:55.008:117:BTGlass:<BluetoothControlCenter>[onHandler]:1310 what: 17 MESSAGE_EVT_CALL_STATUS in
+
+  2369  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.010:18:NONE:hf_process_input 1 12: 
+  2370: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.010:18:NONE:hf_at_cmd_get: +BSIR  1
+  2371  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.011:18:NONE:####bsir_cb, val 1
+
+  2381  [2025-11-25 17:44:55] 50:I:11-25 17:44:55.012:74:GmaService:MSG > app : nsid[0x01] tid[0x01]51:I:11-25 17:44:55.012:18:NONE:hf_process_input 1 12: 
+  2382: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.012:18:NONE:hf_at_cmd_get: +BSIR  1
+  2383  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.012:18:NONE:####bsir_cb, val 1
+
+  2484  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.021:18:NONE:hf_at_cmd_get: OK
+  2485: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.021:18:NONE:hfp_at_cmd_free len 10 result 0: AT+CLIP=1
+  2486  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.021:18:NONE:####cmd_complete_cb, result 0, cme_err 0
+  2487  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.021:18:NONE:_hshf_send_next_cmd
+  2488: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.021:18:NONE:hf_at_cmd_send: len 10 AT+CCWA=1
+  2489  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.021:18:NONE:(d0) rfcomm_dlc_send:dlci=6 tx_credit=9 len=14
+
+  2577  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.060:18:NONE:hf_at_cmd_get: OK
+  2578: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.060:18:NONE:hfp_at_cmd_free len 10 result 0: AT+CCWA=1
+  2579  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.060:18:NONE:####cmd_complete_cb, result 0, cme_err 0
+  2580  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.060:18:NONE:_hshf_send_next_cmd
+  2581: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.060:18:NONE:hf_at_cmd_send: len 12 AT+COPS=3,0
+  2582  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.060:18:NONE:(d0) rfcomm_dlc_send:dlci=6 tx_credit=9 len=16
+
+  2668  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.077:18:NONE:hf_at_cmd_get: OK
+  2669: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.077:18:NONE:hfp_at_cmd_free len 12 result 0: AT+COPS=3,0
+  2670  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.077:18:NONE:####cmd_complete_cb, result 0, cme_err 0
+  2671  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.077:18:NONE:_hshf_send_next_cmd
+  2672: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.078:18:NONE:hf_at_cmd_send: len 10 AT+CMEE=1
+  2673  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.078:18:NONE:(d0) rfcomm_dlc_send:dlci=6 tx_credit=9 len=14
+
+  2827  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.102:18:NONE:hf_at_cmd_get: OK
+  2828: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.102:18:NONE:hfp_at_cmd_free len 10 result 0: AT+CMEE=1
+  2829  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.103:18:NONE:####cmd_complete_cb, result 0, cme_err 0
+  2830  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.103:18:NONE:_hshf_send_next_cmd
+  2831: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.103:18:NONE:hf_at_cmd_send: len 8 AT+CNUM
+  2832  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.103:18:NONE:(d0) rfcomm_dlc_send:dlci=6 tx_credit=9 len=12
+
+  2909  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.117:18:NONE:hf_process_input 1 35: 
+  2910: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.117:18:NONE:hf_at_cmd_get: +CNUM  ,"+8618457183590",145,,4
+  2911  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.117:18:NONE:####cnum_cb
+  2912: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.117:18:NONE:cnum_cb nubmer_len 15 number +8618457183590 
+  2913  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.117:18:NONE:#### btif_hfp_callback event 63[HF_EVENT_CNUM_IND]
+
+  2915  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.117:18:NONE:(d0) app_hfp_event_callback event 33
+  2916: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.117:18:NONE:d(0) hfp_cnum_ind_handler len 14 number +8618457183590 
+  2917: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.118:18:NONE:d(0) hfp_cnum_ind_handler len 14 number +8618457183590 
+  2918  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.118:18:NONE:(d0) !!!hfcall_next_sta_handler curr/another_hfp_device 0 0 hf_call_next_state 0
+
+  2924  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.119:18:NONE:hf_at_cmd_get: OK
+  2925: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.119:18:NONE:hfp_at_cmd_free len 8 result 0: AT+CNUM
+  2926  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.119:18:NONE:####cmd_complete_cb, result 0, cme_err 0
+  2927  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.119:18:NONE:_hshf_send_next_cmd
+  2928: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.119:18:NONE:hf_at_cmd_send: len 25 AT+XAPL=0000-0000-0100,3
+  2929  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.120:18:NONE:(d0) rfcomm_dlc_send:dlci=6 tx_credit=9 len=29
+
+  2971  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.131:18:NONE:hf_process_input 1 18: 
+  2972: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.131:18:NONE:hf_at_cmd_get: +XAPL iPhone,2
+  2973: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.131:18:NONE:####default_cb, +XAPL=iPhone,2, length 6
+  2974  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.132:18:NONE:#### btif_hfp_callback event 62[HF_EVENT_AT_RESULT_DATA]
+
+  2976  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.132:18:NONE:(d0) app_hfp_event_callback event 43
+  2977: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.132:18:NONE:(d0) received AT command: +XAPL=iPhone,2
+  2978  [2025-11-25 17:44:55] 50:I:11-25 17:44:55.140:75:GmaService:MSG < app : nsid[0x17] tid[0x01] msgid[0xA3] RSP 0/0 0/0ms len:0 r:0
+
+  2984  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.133:18:NONE:hf_at_cmd_get: OK
+  2985: [2025-11-25 17:44:55] 51:I:11-25 17:44:55.133:18:NONE:hfp_at_cmd_free len 25 result 0: AT+XAPL=0000-0000-0100,3
+  2986  [2025-11-25 17:44:55] 51:I:11-25 17:44:55.133:18:NONE:####cmd_complete_cb, result 0, cme_err 0
+
+  3041  [2025-11-25 17:44:56] 51:I:11-25 17:44:55.810:18:NONE:hf_process_input 1 11: 
+  3042: [2025-11-25 17:44:56] 51:I:11-25 17:44:55.810:18:NONE:hf_at_cmd_get: +BCS  2
+  3043  [2025-11-25 17:44:56] 51:I:11-25 17:44:55.810:18:NONE:####bcs_cb
+
+  3045  [2025-11-25 17:44:56] 51:I:11-25 17:44:55.810:18:NONE:hf send command check: size 40 count 429
+  3046: [2025-11-25 17:44:56] 51:I:11-25 17:44:55.810:18:NONE:(d0) hf_at_cmd_count: 1 tx_status 0 curr AT+BCS=2
+  3047  [2025-11-25 17:44:56] 51:I:11-25 17:44:55.810:18:NONE:_hshf_send_next_cmd
+  3048: [2025-11-25 17:44:56] 51:I:11-25 17:44:55.810:18:NONE:hf_at_cmd_send: len 9 AT+BCS=2
+  3049  [2025-11-25 17:44:56] 51:I:11-25 17:44:55.810:18:NONE:hshf_is_sending_at_bcs
+
+  3055  [2025-11-25 17:44:56] 51:I:11-25 17:44:55.838:18:NONE:hf_at_cmd_get: OK
+  3056: [2025-11-25 17:44:56] 51:I:11-25 17:44:55.839:18:NONE:hfp_at_cmd_free len 9 result 0: AT+BCS=2
+  3057  [2025-11-25 17:44:56] 51:I:11-25 17:44:55.839:18:NONE:####bcs_resp result 0
+
+  4579  [2025-11-25 17:45:18] 51:I:11-25 17:45:18.366:18:NONE:hf_process_input 1 14: 
+  4580: [2025-11-25 17:45:18] 51:I:11-25 17:45:18.366:18:NONE:hf_at_cmd_get: +CIEV  1,0
+  4581  [2025-11-25 17:45:18] 51:I:11-25 17:45:18.366:18:NONE:####ciev_cb
+
+tests/test_serial.py:
+  11      
+  12:     # Try to read something. r'.+' matches any character (except newline)
+  13      # This verifies that the serial port is open and receiving data.
+
+  16          # Expecting any non-empty string
+  17:         dut.expect(r'.+', timeout=5)
+  18          logging.info("Successfully received data from serial port.")
+
+tests/test_smoke.py:
+   9  # 如果你的设备很安静，可以设置为空字符串 ""，但这可能导致测试不严谨
+  10: KNOWN_BOOT_LOG = r"I \(\d+\) boot: Project name:" 
+  11  # 或者简单点，等待任意一个换行符，代表收到了数据：

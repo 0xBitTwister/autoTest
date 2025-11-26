@@ -1,1 +1,1 @@
-pytest tests/test_sample.py --port /dev/tty.usbserial-A50285BI --baud 115200
+pytest tests/test_hfp.py --port /dev/tty.usbserial-A50285BI --baud 3000000
